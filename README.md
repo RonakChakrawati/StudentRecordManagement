@@ -3,9 +3,12 @@ Student Record Management System is a console-based C++ application that manages
 
 ⸻
 
+
 🎓 Student Record Management System (C++)
 
+
 📌 About The Project
+
 
 This is a simple console-based Student Record Management System built using C++.
 
@@ -13,7 +16,9 @@ The program allows users to manage student records using a menu-driven interface
 
 This project does not use STL containers or file handling. All data is stored in a static array and is lost once the program exits.
 
+
 ⸻
+
 
 🚀 Features
 	•	Add a new student
@@ -23,7 +28,9 @@ This project does not use STL containers or file handling. All data is stored in
 	•	Delete student record
 	•	Exit system
 
+
 ⸻
+
 
 🧠 Concepts Used
 
@@ -37,7 +44,9 @@ This project helps in understanding:
 	•	Manual array shifting (for delete operation)
 	•	Basic memory boundary checking
 
+
 ⸻
+
 
 🏗️ How Data is Stored
 
@@ -49,13 +58,16 @@ struct student {
     float marks;
 };
 
+
 All student records are stored in:
 
 student students[100];
 
 Maximum capacity: 100 students.
 
+
 ⸻
+
 
 ▶️ How to Run
 
@@ -69,7 +81,9 @@ Step 2: Run
 
 (Windows users may run student_system.exe)
 
+
 ⸻
+
 
 ⚠️ Limitations
 	•	Maximum 100 students
@@ -77,7 +91,9 @@ Step 2: Run
 	•	Name input does not support spaces
 	•	Duplicate roll numbers are not validated
 
+
 ⸻
+
 
 🔮 Future Improvements
 	•	Replace array with vector
@@ -86,7 +102,9 @@ Step 2: Run
 	•	Add file handling for permanent storage
 	•	Convert to class-based (OOP) version
 
+
 ⸻
+
 
 📚 Purpose
 
